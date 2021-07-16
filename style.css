@@ -1,0 +1,21 @@
+header{
+    background-color: crimson;
+}
+.papel{
+    border: solid 5px black;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.titulo{
+    text-align: center;
+    font-size: medium;
+}
+.nav-link{
+    border-left: solid 2px black;
+    border-width: solid 2px black;
+}
+.icone{
+    max-height: 433px;
+    max-height: 433px;
+}
