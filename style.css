@@ -1,21 +1,48 @@
 header{
-    background-color: crimson;
+    background-color: white;
+    border-radius: 10px;
 }
 .papel{
     border: solid 5px black;
     justify-content: center;
     margin-top: 1%;
     margin-bottom: 1%;
+    border-radius: 10px;
+    background-color: black;
 }
 .titulo{
     text-align: center;
     font-size: medium;
 }
-.nav-link{
-    border-left: solid 2px black;
-    border-width: solid 2px black;
-}
 .icone{
-    max-height: 433px;
-    max-height: 433px;
+    max-height: 500px;
+    max-height: 500px;
+    border-radius: 10px;
+    border: solid 5px white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    text-align: center;
+    list-style: none;
+}
+.titu{
+    text-align: center;
+    font-size: 80px;
+}
+a{
+    color: white;
+}
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.contato{
+    max-width: 50px;
+    max-height: 50px;
 }
