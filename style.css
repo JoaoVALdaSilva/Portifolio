@@ -66,24 +66,3 @@ p{
     font-size: 20px;
     text-align: center;
 }
-.voltar{
-    font-family: pixel;
-    font-size: larger;
-}
-.card{
-    background-color: transparent;
-    max-width: 250px;
-    max-height: 350px;
-    transition: all 0.4s ease;
-}
-.card:hover{
-    box-shadow: 0 0 1em whitesmoke;
-}
-.card-img-top{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-.card-deck{
-    padding: 15px;
-}

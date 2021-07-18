@@ -1,0 +1,59 @@
+@font-face {
+    font-family: pixel;
+    src: url(font/TTF/dogica.ttf);
+}
+body{
+    background-image: url(img/wCPZ3Y.webp);
+}
+header{
+    background-color:#2d2b4f;
+    border-radius: 10px;
+}
+.papel{
+    border: solid 2px #040406;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    background-color: #040406;
+    box-shadow: 0 0 1em #2d2b4f;
+}
+.voltar{
+    font-family: pixel;
+    font-size: larger;
+}
+.card{
+    background-color: transparent;
+    max-width: 250px;
+    max-height: 350px;
+    transition: all 0.4s ease;
+}
+.card:hover{
+    box-shadow: 0 0 1em whitesmoke;
+}
+.card-img-top{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card-deck{
+    padding: 15px;
+}
+a{
+    color: white;
+    font-size: x-large;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+.titulo{
+    font-family: pixel;
+    font-size: 30px;
+    color: white;
+}
+h1{
+    font-family: pixel;
+    font-size: small;
+    color: white;
+}
