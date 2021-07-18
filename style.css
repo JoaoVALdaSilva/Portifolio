@@ -1,6 +1,6 @@
 @font-face {
     font-family: pixel;
-    src: url(font/Pixeltype.ttf);
+    src: url(font/TTF/dogica.ttf);
 }
 body{
     background-image: url(img/wCPZ3Y.webp);
@@ -20,7 +20,7 @@ header{
 }
 .titulo{
     text-align: center;
-    font-size: xx-large;
+    font-size: larger;
     font-family: pixel;
     color: white;
 }
@@ -28,9 +28,9 @@ header{
     max-height: 500px;
     max-height: 500px;
     border-radius: 10px;
-    border: solid 3px #2d2b4f;
     margin-top: 10px;
     margin-bottom: 10px;
+    box-shadow: 0 0 1em #2d2b4f;
 }
 IMG.displayed {
     display: block;
@@ -44,14 +44,13 @@ li{
 }
 .titu{
     text-align: center;
-    font-size: 80px;
+    font-size: 30px;
     font-family: pixel;
     color: white;
-
 }
 a{
     color: white;
-    font-size: x-large;
+    font-size: larger;
 }
 a:hover {
     color: #2d2b4f;
@@ -64,4 +63,27 @@ a:hover {
 p{
     font-family: pixel;
     color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.voltar{
+    font-family: pixel;
+    font-size: larger;
+}
+.card{
+    background-color: transparent;
+    max-width: 250px;
+    max-height: 350px;
+    transition: all 0.4s ease;
+}
+.card:hover{
+    box-shadow: 0 0 1em whitesmoke;
+}
+.card-img-top{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card-deck{
+    padding: 15px;
 }
