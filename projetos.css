@@ -1,0 +1,20 @@
+@font-face {
+    font-family: pixel;
+    src: url(font/TTF/dogica.ttf);
+}
+body{
+    background-image: url(img/wCPZ3Y.webp);
+}
+header{
+    background-color:#2d2b4f;
+    border-radius: 10px;
+}
+.papel{
+    border: solid 2px #040406;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    background-color: #040406;
+    box-shadow: 0 0 1em #2d2b4f;
+}
