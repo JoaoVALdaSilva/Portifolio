@@ -18,3 +18,107 @@ header{
     background-color: #040406;
     box-shadow: 0 0 1em #2d2b4f;
 }
+.voltar{
+    font-family: pixel;
+    font-size: larger;
+}
+.titulo{
+    text-align: center;
+    font-size: larger;
+    font-family: pixel;
+    color: white;
+}
+a{
+    color: white;
+    font-size: x-large;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+h1{
+    font-family: pixel;
+    font-size: medium;
+    color: white;
+}
+h2{
+    font-family: pixel;
+    font-size: small;
+    color: white;
+}
+p{
+    font-family: pixel;
+    font-size: x-small;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+}
+.skills .skills-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .column{
+    width: calc(50% - 40px);
+}
+.skills .skills-content .left .text{
+    font-family: pixel;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+}
+.bars{
+    margin-bottom: 15px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span{
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    font-family: pixel;
+}
+.line{
+    height: 5px;
+    width: 100%;
+    background-color: #16162c;
+    position: relative;
+}
+.line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    left: 0;
+    top: 0;
+    background-color: #2d2b4f;
+}
+.html::before{
+    width: 50%;
+}
+.css::before{
+    width: 50%;
+}
+.js::before{
+    width: 10%;
+}
+.php::before{
+    width: 0;
+}
+.criatividade::before{
+    width: 100%;
+}
+.comunicacao::before{
+    width: 85%;
+}
+.proatividade::before{
+    width: 55%;
+}
+.lideranca::before{
+    width: 75%;
+}
