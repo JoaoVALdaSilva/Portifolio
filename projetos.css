@@ -18,3 +18,53 @@ header{
     background-color: #040406;
     box-shadow: 0 0 1em #2d2b4f;
 }
+.voltar{
+    font-family: pixel;
+    font-size: larger;
+}
+.titulo{
+    text-align: center;
+    font-size: larger;
+    font-family: pixel;
+    color: white;
+}
+a{
+    color: white;
+    font-size: x-large;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+h1{
+    font-family: pixel;
+    font-size: medium;
+    color: white;
+}
+h2{
+    font-family: pixel;
+    font-size: small;
+    color: white;
+}
+p{
+    font-family: pixel;
+    font-size: x-small;
+    color: white;
+    padding: 15px;
+    justify-content: center;
+}
+.card{
+    background-color: transparent;
+    transition: all 0.4s ease;
+}
+.card:hover{
+    box-shadow: 0 0 1em whitesmoke;
+}
+.card-img-top{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card-deck{
+    padding: 10px;
+}
